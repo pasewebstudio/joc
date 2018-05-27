@@ -8,8 +8,8 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>New Age - Start Bootstrap Theme</title>
-
+    <title>Jar of Confidence</title>
+      <link rel="icon" href="/favicon.png" type="image/png" />
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
 
     <!-- Custom styles for this template -->
-    <link href="css/new-age.min.css" rel="stylesheet">
+    <link href="css/new-age.css" rel="stylesheet">
 
   </head>
 
@@ -33,7 +33,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="img/jar-of-confidence.png"></a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fa fa-bars"></i>
@@ -58,8 +58,8 @@
       <div class="container h-100">
         <div class="row h-100">
           <div class="col-lg-7 my-auto">
-            <div class="header-content mx-auto">
-              <h1 class="mb-5">New Age is an app landing page that will help you beautifully showcase your new mobile app, or anything else!</h1>
+            <div class="header-content mx-auto" id="quote">
+              <h1 class="mb-5">Jar of Confidence is an app  that will help you to get inspired throughout the day...</h1>
               <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Start Now for Free!</a>
             </div>
           </div>
@@ -67,9 +67,8 @@
             <div class="device-container">
               <div class="device-mockup iphone6_plus portrait white">
                 <div class="device">
-                  <div class="screen">
-                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                    <img src="img/demo-screen-1.jpg" class="img-fluid" alt="">
+                  <div class="screen" >
+                     <img src="public/ajax/ajax_get_all2.php" class="img-fluid" alt="">
                   </div>
                   <div class="button">
                     <!-- You can hook the "home button" to some JavaScript events or just remove it -->
@@ -111,7 +110,7 @@
                 <div class="device">
                   <div class="screen">
                     <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                    <img src="img/demo-screen-1.jpg" class="img-fluid" alt="">
+                    <img src="public/ajax/ajax_get_all2.php" class="img-fluid" alt="">
                   </div>
                   <div class="button">
                     <!-- You can hook the "home button" to some JavaScript events or just remove it -->
@@ -163,7 +162,7 @@
     <section class="cta">
       <div class="cta-content">
         <div class="container">
-          <h2>Stop waiting.<br>Start building.</h2>
+          <h2>Keep calm,<br>be inspired!</h2>
           <a href="#contact" class="btn btn-outline btn-xl js-scroll-trigger">Let's Get Started!</a>
         </div>
       </div>
@@ -176,28 +175,47 @@
           <i class="fa fa-heart"></i>
           new friends!</h2>
         <ul class="list-inline list-social">
-          <li class="list-inline-item social-twitter">
-            <a href="#">
-              <i class="fa fa-twitter"></i>
-            </a>
-          </li>
+
           <li class="list-inline-item social-facebook">
-            <a href="#">
+            <a href="https://www.facebook.com/JarofConfidence/" target="_blank">
               <i class="fa fa-facebook"></i>
             </a>
           </li>
-          <li class="list-inline-item social-google-plus">
-            <a href="#">
-              <i class="fa fa-google-plus"></i>
-            </a>
-          </li>
+
         </ul>
       </div>
     </section>
 
+
+     <div class="modal fade" id="adesso" tabindex="-1" role="dialog" aria-labelledby="adesso" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                     <h3>Get inspired, now!</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container"><div class="col-sm-12 text-center">
+                        <img src="public/ajax/ajax_get_all2.php" style="max-height:400px" alt="">
+                    </div></div>
+                </div>
+                <div class="modal-footer">
+                    <div class="pull-left mr-auto"><img src="img/jar-of-confidence-black.png" width="100"></div>
+                    <div class="pull-right"><button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button></div>
+                    <!--<button type="button" class="btn btn-primary">Save changes</button>-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
     <footer>
       <div class="container">
-        <p>&copy; Your Website 2018. All Rights Reserved.</p>
+        <p>&copy; <a href="http://www.jarofconfidence.com"> www.jarofconfidence.com</a> 2018. All Rights Reserved.</p>
         <ul class="list-inline">
           <li class="list-inline-item">
             <a href="#">Privacy</a>
@@ -221,7 +239,7 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/new-age.min.js"></script>
-
+    <script src="js/joc.js"></script>
   </body>
 
 </html>
